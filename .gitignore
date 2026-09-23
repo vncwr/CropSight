@@ -1,0 +1,60 @@
+# --------------------------------------------------
+# Operating System & Editors
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.bak
+*~
+*.log
+.idea/
+.vscode/
+
+# --------------------------------------------------
+# Python / Machine Learning
+# --------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ml/venv/
+.ipynb_checkpoints*/
+
+# Datasets & Large Archives (keep out of git)
+ml/data/
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Heavy intermediate checkpoints (keep final TFLite in assets)
+ml/models/*.keras
+ml/models/*.h5
+ml/models/*.pt
+ml/models/*.pth
+ml/models/*.onnx
+ml/models/saved_model/
+*.keras
+*.h5
+
+# --------------------------------------------------
+# Cloud / Serverless & Secrets
+# --------------------------------------------------
+.vercel/
+node_modules/
+backend/node_modules/
+.env
+.env.*
+!.env.example
+
+# --------------------------------------------------
+# Release Binaries
+# --------------------------------------------------
+*.apk
+*.aab

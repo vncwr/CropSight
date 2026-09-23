@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.js" },
+    { "source": "/summarize", "destination": "/api/summarize.js" },
+    { "source": "/api/summarize", "destination": "/api/summarize.js" }
+  ]
+}
