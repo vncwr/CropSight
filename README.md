@@ -102,7 +102,7 @@ To maintain rigorous security and prevent client-side credential exposure, the m
 CropSight-Research/
 ├── assets/
 │   ├── icons/                  # Application branding and logos
-│   │   └── cropsight.png
+│   │   └── cropsight_f.png
 │   ├── model/                  # Compiled TensorFlow Lite deployment model & labels
 │   │   ├── labels.txt          # Target diagnostic classes
 │   │   └── model.tflite        # Optimized edge-inference neural network (2.8 MB)
