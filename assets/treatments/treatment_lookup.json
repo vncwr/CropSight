@@ -1,0 +1,17 @@
+{
+  "Bacterialblight": {
+    "name": "Bacterial Leaf Blight",
+    "description": "Bacterial disease caused by Xanthomonas oryzae pv. oryzae. Appears as water-soaked to yellowish stripes on leaf blades, starting from leaf tips and margins. Leaves may turn grayish-white and wilt in severe cases.",
+    "treatment": "No effective chemical cure once infected. Use resistant varieties (e.g., IR64, NSIC Rc222). Avoid excessive nitrogen fertilization which increases susceptibility. Ensure proper field drainage. Remove and destroy infected crop residues. Use balanced fertilization with potassium to strengthen plant resistance."
+  },
+  "Brownspot": {
+    "name": "Brown Spot",
+    "description": "Fungal disease caused by Bipolaris oryzae (Cochliobolus miyabeanus). Characterized by oval to circular brown lesions with gray or whitish centers on leaves. Often indicates nutrient-deficient or stressed plants.",
+    "treatment": "Apply fungicides containing mancozeb, iprodione, or propiconazole at early symptom onset. Address underlying soil nutrient deficiencies, particularly potassium and silicon. Use certified disease-free seeds. Improve soil fertility with balanced NPK fertilization. Ensure proper spacing for air circulation."
+  },
+  "Leafsmut": {
+    "name": "Leaf Smut",
+    "description": "Fungal disease caused by Entyloma oryzae. Appears as small, angular, slightly raised dark brown to black spots on leaves. Individual spots may be inconspicuous, but heavy infection gives leaves a dusty or sooty appearance.",
+    "treatment": "Apply fungicides containing propiconazole or azoxystrobin if infection is severe. Typically a minor disease that rarely causes significant yield loss. Maintain balanced fertilization. Remove infected plant debris after harvest. Use resistant varieties where available."
+  }
+}

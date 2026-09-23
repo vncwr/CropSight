@@ -1,0 +1,13 @@
+{
+  "name": "cropsight-backend",
+  "version": "1.0.0",
+  "description": "CropSight LLM summary proxy — holds API key server-side",
+  "main": "functions/summarize.js",
+  "scripts": {
+    "start": "npx @google-cloud/functions-framework --target=summarize --port=8080",
+    "deploy": "gcloud functions deploy summarize --gen2 --runtime=nodejs20 --trigger-http --allow-unauthenticated --set-env-vars LLM_API_KEY=YOUR_KEY_HERE"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0"
+  }
+}
