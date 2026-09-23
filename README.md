@@ -1,7 +1,7 @@
 # CropSight: Edge-AI Crop Disease Diagnosis & Agronomic Forensic Investigation Platform
 
 <p align="center">
-  <img src="assets/icons/cropsight.png" alt="CropSight Logo" width="160" />
+  <img src="assets/icons/cropsight_f.png" alt="CropSight Logo" width="160" />
 </p>
 
 <p align="center">
